@@ -1,4 +1,4 @@
-# Arno's original Engram-es Spanish keyboard layout (2021)
+# Arno's Engram-es Spanish keyboard layout (original)
 
 Note: This is the original Engram-es layout for Spanish, created in 2021. It has been superseded by Engram-es v2025.10.31, which uses an entirely new optimization approach based on crowdsourced typing preference data and multi-objective optimization. The original Engram-es remains available for existing users via Keyman.
 
@@ -58,7 +58,7 @@ All current and future Engram layouts live in the [engram repo](https://github.c
 ## Why a new keyboard layout? <a name="why">
 
 **History** <br>
-After creating the English [Engram-2021 layout](https://github.com/binarybottle/engram-2021), community members came together to help guide the creation of a Spanish version.  Thank you, Nick Gutiérrez (@NickG13) and Miguel Guzmán (@Lobo-Feroz), and a special thanks to Ian Douglas (@iandoug) for cleaning up the Leipzig Spanish corpus and for computing character and bigram frequencies!  For documentation of this Spanish corpus, please see [Creating a Corpus and Chained Bigrams for Spanish Keyboard Development and Evaluation](https://zenodo.org/record/5501931).
+After creating the English [engram-2021 layout](https://github.com/binarybottle/engram-2021), community members came together to help guide the creation of a Spanish version.  Thank you, Nick Gutiérrez (@NickG13) and Miguel Guzmán (@Lobo-Feroz), and a special thanks to Ian Douglas (@iandoug) for cleaning up the Leipzig Spanish corpus and for computing character and bigram frequencies!  For documentation of this Spanish corpus, please see [Creating a Corpus and Chained Bigrams for Spanish Keyboard Development and Evaluation](https://zenodo.org/record/5501931).
 
 **Why "Engram"?** <br>
 The name is a pun, referring both to "n-gram", letter permutations and their frequencies that are used to compute an Engram layout, and "engram", or memory trace, the postulated change in neural tissue to account for the persistence of memory, as a nod to my attempt to make this layout easy to remember.
@@ -77,7 +77,7 @@ The name is a pun, referring both to "n-gram", letter permutations and their fre
     10. Assign the most common punctuation to keys in the middle of the keyboard.
     11. Assign easy-to-remember symbols to the Shift-number keys.
     
-### Factors used to compute the Engram-es-2021 layout <a name="factors">
+### Factors used to compute the Engram-es layout <a name="factors">
   - Spanish letter and letter bigram frequency data from a cleaned-up version of the Leipzig Spanish corpus. The largest file was downloaded from each row of the [original version](https://wortschatz.uni-leipzig.de/en/download/Spanish), except for rows specified as not from Spain, and lines containing non-Spanish names and words were removed. 
     <br>
   - **Flow factors** (transitions between ordered key pairs)
@@ -386,7 +386,7 @@ The numbers are flanked to the left and right by [square brackets], and {curly b
 
 The three remaining keys in many common keyboards (flanking the upper right hand corner Backspace key) are displaced in special keyboards, such as the Kinesis Advantage and Ergodox. For the top right key, we will assign the forward slash and backslash: / \\. For one of the remaining two keys we will assign the hyphen and underscore, and to the other key, two symbols that in modern usage have significance in social media: the hash/pound sign and the "at sign". The hash or hashtag identifies digital content on a specific topic (the Shift key accesses the money sign). The "at sign" identifies a location or affiliation (such as in email addresses) and acts as a "handle" to identify users in popular social media platforms and online forums.
 
-The resulting Engram-es-2021 layout:
+The resulting Engram-es layout:
 
           [ | = ~ +   <  >   ^ & % * ] \
           ( 1 2 3 4   5  6   7 8 9 0 ) /
