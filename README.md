@@ -1,10 +1,10 @@
-# Engram-es-2021 Spanish keyboard layout
+# Arno's original Engram-es Spanish keyboard layout (2021)
 
-Engram-es-2021 is a key layout optimized for comfortable and efficient touch typing in Spanish 
-created by [Arno Klein](https://arnoklein.info) with help from Ian Douglas, aMiguel Guzmán, and Nick Gutiérrez. It has been superceded by the newer [Engram-es layout](https://engram-layouts.xyz/engram-es).
+Note: This is the original Engram-es layout for Spanish, created in 2021. It has been superseded by Engram-es v2025.10.31, which uses an entirely new optimization approach based on crowdsourced typing preference data and multi-objective optimization. The original Engram-es remains available for existing users via Keyman.
 
+Engram-es is an optimized key layout for comfortable and efficient touch typing in Spanish,
+created by Arno Klein with help from Ian Douglas, Miguel Guzmán, and Nick Gutiérrez.
 Letters are optimally arranged according to ergonomics factors that promote reduction of lateral finger movements and more efficient typing of high-frequency letter pairs. The most common punctuation marks and special key for diacritical marks (☆) are logically grouped together in the middle columns and numbers are paired with mathematical and logic symbols (shown as pairs of default and Shift-key-accessed characters). See below for a full description.
-
 
           [ | = ~ +   <  >   ^ & % * ] \
           ( 1 2 3 4   5  6   7 8 9 0 ) /
@@ -32,6 +32,19 @@ Letters are optimally arranged according to ergonomics factors that promote redu
 
 ### Standard diagonal keyboard (default, Shift, and AltGr layers)
 ![Standard keyboard](https://github.com/binarybottle/engram-es-2021/blob/master/assets/engram-es.png?raw=true)
+
+## Version history
+
+All current and future Engram layouts live in the [engram repo](https://github.com/binarybottle/engram). Engram layouts use [CalVer](https://calver.org/) versioning (YYYY.MM.DD).
+
+| Version | Date | Layout | Notes |
+|---------|------|--------|-------|
+| Engram v1.2 | 2021-02-08 | — | Early prototype |
+| Engram v1.3 | 2021-03-20 | — | Refined scoring parameters |
+| **Engram** (v2.0) | 2021-12-18 | `BYOU LDWV` / `CIEA HTSN` / `GXJK RMFP` | Original algorithm ([engram-2021 repo](https://github.com/binarybottle/engram-2021)) |
+| **Engram-es** (v2.0) | 2021-09-30 |  | Spanish layout, original algorithm ([this engram-es-2021 repo](https://github.com/binarybottle/engram-es-2021)) |
+| **Engram-en** v2025.10.31 | 2025-10-31 | `BYOU DNGV` / `HIAE TRSC` / `KJXW MLFP` | New approach: crowdsourced preferences + MOO |
+| **Engram-es** v2025.10.31 | 2025-10-31 | Spanish layout | Same new approach, Spanish n-grams |
 
 (c) 2021 Arno Klein, MIT license
 
