@@ -1,6 +1,6 @@
 # Arno's Engram-es Spanish keyboard layout (original)
 
-Note: This is the original Engram-es layout for Spanish, created in 2021. It has been superseded by Engram-es v2025.10.31, which uses an entirely new optimization approach based on crowdsourced typing preference data and multi-objective optimization. The original Engram-es remains available for existing users via Keyman.
+> **Note:** This is the original Engram-es layout for Spanish, created in 2021. It has been superseded by Engram-es v2025.10.31, which uses an entirely new optimization approach based on crowdsourced typing preference data and multi-objective optimization. The original Engram-es remains available for existing users via Keyman.
 
 Engram-es is an optimized key layout for comfortable and efficient touch typing in Spanish,
 created by Arno Klein with help from Ian Douglas, Miguel Guzmán, and Nick Gutiérrez.
